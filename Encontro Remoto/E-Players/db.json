@@ -19,6 +19,11 @@
       "email": "novo@mail.com",
       "password": "$2a$10$jte0hVvs2NflrGIb9ItgFePvTddvsbUQf8N.BG4BtVXl4f0oQpRBG",
       "id": 4
+    },
+    {
+      "email": "alexandre.hoss@yahoo.com.br",
+      "password": "$2a$10$QyeTbszX8U6wPy7AqKipI.Q1TkNjc2oyb/XqTnb3OafDf8ydbPCTi",
+      "id": 5
     }
   ]
 }
