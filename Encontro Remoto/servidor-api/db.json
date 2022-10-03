@@ -1,0 +1,27 @@
+{
+  "produtos": [
+    {
+      "descricao": "Camisa Polo manga longa ",
+      "preco": 99.9,
+      "id": 1
+    },
+    {
+      "descricao": "Tenis Nike",
+      "preco": 295.98,
+      "id": 2
+    },
+    {
+      "descricao": "Tenis Adidas",
+      "preco": 195.98,
+      "id": 3
+    },
+    {
+      "descricao": "Tenis Polo",
+      "preco": 195.98,
+      "id": 4
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,0 +1,238 @@
+<header>
+    <nav>
+        <div class="principal">
+            <div class="logotipo">
+                <img src="../../../assets/Imagens/logo (1).jpg" alt="">
+                <p>A sua central de eletrônicos e diversão</p>
+            </div>
+            <div id="divBusca">
+                <input type="text" id="txtBusca" placeholder="Buscar..." />
+                <img src="../../../assets/Imagens/searchicon.png" id="btnBusca" alt="Buscar" />
+            </div>
+            <div class="cliente">
+                <div class="login">
+                    <a href="./login">
+                        <p>Login</p>
+                    </a>
+                    <a href="./cadastro.html">
+                        <p>Cadastro</p>
+                    </a>
+                </div>
+                <div class="carrinho">
+                    <img src="../../../assets/Imagens/carrinho.png" alt="">
+                </div>
+            </div>
+            <div class="hamburguer" onclick="menulateralmostrar()">
+                <img src="../../../assets/Imagens/bars.svg" alt="">
+                <div id="navMenu" class="menu-lateral">
+                    <a href="./login.html">
+                        <p>Login</p>
+                    </a>
+                    <a href="./cadastro.html">
+                        <p>Cadastro</p>
+                    </a>
+                    <p><a href="">Playstation</a></p>
+                    <p><a href="">Xbox</a></p>
+                    <p><a href="">PC</a></p>
+                    <p><a href="">Games</a></p>
+                    <p><a href="">Acessórios</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="categorias">
+            <p><a href="">Playstation</a></p>
+            <p><a href="">Xbox</a></p>
+            <p><a href="">PC</a></p>
+            <p><a href="">Games</a></p>
+            <p><a href="">Acessórios</a></p>
+        </div>
+    </nav>
+</header>
+<main>
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <!-- a class carousel inner deve ser modificada para ficar com 100vw -->
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="../../../assets/Banners/banner01.png" class="d-block w-100" alt="Banner do CS">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="../../../assets/Banners/banner02.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <H1>Destaques</H1>
+    <!-- <section class="destaques">
+        <div>
+            <img src="../../../assets/Imagens/PS5.webp" alt="PS5"></th>
+            <p>PS5</p>
+            <p>R$ 4.349,99</p>
+        </div>
+        <div>
+            <img src="../../../assets/Imagens/teclado.jpg" alt="Teclado retroiluminado">
+            <p>Teclado Gamer</p>
+            <p>R$ 156,99</p>
+        </div>
+        <div>
+            <img src="../../../assets/Imagens/forza xbox.webp" alt="Forza Xbox">
+            <p>Forza Horizon XBOX</p>
+            <p>R$ 99,99</p>
+        </div>
+        
+        <div>
+            <img src="../../../assets/Imagens/pc Gamer.jpg" alt="PcGamer">
+            <p>PC Gamer</p>
+            <p>R$ 3.399,99</p>
+        </div>
+    </section> -->
+
+    <section class="destaques">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../../../assets/Imagens/battlefield ps4.jpeg" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <h5 class="card-title">BattleField 2042</h5>
+                            <p class="card-text">R$90,00</p>
+                            <a href="#" class="btn btn-danger btn-buy">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../../../assets/Imagens/battlefield ps4.jpeg" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <h5 class="card-title">BattleField 2042</h5>
+                            <p class="card-text">R$90,00</p>
+                            <a href="#" class="btn btn-danger btn-buy">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../../../assets/Imagens/battlefield ps4.jpeg" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <h5 class="card-title">BattleField 2042</h5>
+                            <p class="card-text">R$90,00</p>
+                            <a href="#" class="btn btn-danger btn-buy">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../../../assets/Imagens/battlefield ps4.jpeg" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <h5 class="card-title">BattleField 2042</h5>
+                            <p class="card-text">R$90,00</p>
+                            <a href="#" class="btn btn-danger btn-buy">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <H1>Galeria</H1>
+    <section class="destaques">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../../../assets/Imagens/forza xbox.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Forza Horizon XBOX</h5>
+                            <p class="card-text">R$90,00</p>
+                            <a href="#" class="btn btn-danger btn-buy">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../../../assets/Imagens/arcado joystick.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Joystick Arcade</h5>
+                            <p class="card-text">R$90,00</p>
+                            <a href="#" class="btn btn-danger btn-buy">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../../../assets/Imagens/controle ps4.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Controle PS4</h5>
+                            <p class="card-text">R$250,00</p>
+                            <a href="#" class="btn btn-danger btn-buy">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../../../assets/Imagens/pc Gamer.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">PC Gamer</h5>
+                            <p class="card-text">R$3599,00</p>
+                            <a href="#" class="btn btn-danger btn-buy">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../../../assets/Imagens/demonsouls.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Demon's Soul</h5>
+                            <p class="card-text">R$199,00</p>
+                            <a href="#" class="btn btn-danger btn-buy">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../../../assets/Imagens/fone de ouvido .jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Fone de Ouvido</h5>
+                            <p class="card-text">R$299,00</p>
+                            <a href="#" class="btn btn-danger btn-buy">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../../../assets/Imagens/controle ps5.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Controle PS5</h5>
+                            <p class="card-text">R$399,00</p>
+                            <a href="#" class="btn btn-danger btn-buy">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../../../assets/Imagens/placa de videos phoenix gtx 6gb.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Placa de vídeo</h5>
+                            <p class="card-text">R$1299,00</p>
+                            <a href="#" class="btn btn-danger btn-buy">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
