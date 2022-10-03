@@ -16,6 +16,12 @@
         </div>
         <!-- Faz em tempo real e mostra os dados digitados -->
         <div class="linha">
+            <!-- mensagem de sucesso ou erro ao logar, puxando os erros do login.component.ts -->
+            <p>
+                {{mensagem}}<br>
+            </p>
+        </div>
+        <div class="linha">
             <p>
                 {{userModel.email}}<br>
                 {{userModel.password}}

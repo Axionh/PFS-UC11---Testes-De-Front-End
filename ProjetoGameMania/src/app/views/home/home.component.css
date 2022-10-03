@@ -1,0 +1,130 @@
+
+/* Banner */
+.banner {
+    /* background-color: orange; */
+    width: 100vw;
+    height: 300px;
+}
+
+.banner img {
+    width: inherit;
+    height: inherit;
+}
+
+/* body{
+    background-image: linear-gradient(rgb(73, 73, 229) ,rgb(255, 255, 255)50%, rgb(73, 73, 229) 120% );
+} */
+
+
+main h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 30px 0 30px 0;
+}
+
+/* Destaques e Galeria */
+.container {
+    max-width: 1200px;
+}
+/* 
+Dimensões do container
+
+.mostrar-coluna{
+    
+}
+
+.container, .container-fluid, .container-gid {
+    
+} */
+
+
+
+.destaques {
+    background-color: white;
+}
+
+.destaques .card{
+    margin-top: 20px;
+}
+.destaques .card-title{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20x;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.destaques .card-text{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20x;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.destaques .card .btn-buy{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+    width: 100%;
+    border: none;
+
+}
+
+/* ----------------------------------------------- */
+
+
+/* ---------------------------- */
+
+
+
+
+
+
+
+/* Smartphones <768 */
+@media screen and (max-width: 767px){
+    .rodape-politica{
+        display: none;
+    }
+    
+    #divBusca{
+        display: none;
+    }
+    .rodape-duvidas{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 470px){
+    .rodape-logo{
+        display: none;
+    }
+    .carrinho{
+        display: none;
+    }
+    .logotipo p{
+        display: none;
+    }
+
+    .rodape h2{
+        font-size: 14px;
+    }
+    .rodape li{
+        font-size: 12px;
+    }
+    .face-icone,
+    .insta-icone,
+    .tiktok-icone {
+        height: 25px;
+    }
+    
+    
+}
+
+/* Customização do bootstrap */
+.carousel-inner{
+    width: 100vw;
+}

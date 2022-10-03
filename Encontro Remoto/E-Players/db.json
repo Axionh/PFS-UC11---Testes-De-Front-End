@@ -14,6 +14,11 @@
       "email": "rodrigo@mail.com",
       "password": "$2a$10$WJEYpejMa0w1fA41Pvfoief8.RQF9tqpSwGiVROhRpEWGsq3kP4ri",
       "id": 3
+    },
+    {
+      "email": "novo@mail.com",
+      "password": "$2a$10$jte0hVvs2NflrGIb9ItgFePvTddvsbUQf8N.BG4BtVXl4f0oQpRBG",
+      "id": 4
     }
   ]
 }
