@@ -1,0 +1,17 @@
+<main>
+    <div class="container container-personalizado">
+        <form action="" class="form-login"(ngSubmit)="receberDados()">
+            <div class="linha">
+                <label for="">Login</label>
+                <input type="text" id="email" placeholder="Seu e-mail" [(ngModel)]="userModel" required>
+            </div>
+            <div class="linha">
+                <label for="">Senha</label>
+                <input type="password" id="senha" placeholder="******" [(ngModel)]="userModel.password" required>
+            </div>
+            <div class="linha">
+                <button type="submit" id="login" class="btn btn-danger">Login</button>
+            </div>
+        </form>
+    </div>
+</main>

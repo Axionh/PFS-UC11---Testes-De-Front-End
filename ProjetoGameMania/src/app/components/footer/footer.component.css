@@ -1,0 +1,109 @@
+/* INFORMAÇÕES DO FOOTER */
+.rodape {
+    display: flex;
+    background-color: #000000;
+    color: #ffffff;
+    height: 65px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rodape-logo {
+    height: 50px;
+}
+
+.rodape h2{
+    text-align: center;
+    font-size: 12px;
+}
+
+.rodape li{
+    text-align: center;
+    font-size: 10px;
+}
+
+.rodape-contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rodape-contato ul{
+    padding-left: 0;
+}
+
+
+.rodapre-localizacao {}
+
+.rodape-localizacao li, h2 {
+    text-align: center
+}
+
+.rodape-duvidas {}
+
+.rodape-duvidas li {
+    text-align: center
+}
+
+.rodape-politica {
+    text-align: center
+}
+
+.rodape-redes-icones {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.face-icone,
+.insta-icone,
+.tiktok-icone {
+    height: 30px;
+}
+
+
+    @media screen and (max-width: 991px){
+
+    }
+
+    /* Smartphones <768 */
+@media screen and (max-width: 767px){
+    .rodape-politica{
+        display: none;
+    }
+    
+    #divBusca{
+        display: none;
+    }
+    .rodape-duvidas{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 470px){
+    .rodape-logo{
+        display: none;
+    }
+    .carrinho{
+        display: none;
+    }
+    .logotipo p{
+        display: none;
+    }
+
+    .rodape h2{
+        font-size: 12px;
+    }
+    .rodape li{
+        font-size: 10px;
+    }
+    .face-icone,
+    .insta-icone,
+    .tiktok-icone {
+        height: 25px;
+    }
+    
+    
+}

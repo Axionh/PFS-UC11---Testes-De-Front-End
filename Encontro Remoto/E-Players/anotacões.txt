@@ -1,0 +1,12 @@
+-----------CONSUMO DE API------------
+Instalar e carregar o Insomnia -app.module.ts
+
+Criar o servive/requisição, configurando a rota da API (
+    ng generate servive service/user
+    Carregar o HTTPClient no constructor - private httpClient: httpClient, injeção de dependencia
+    Criar a variavel de rota na classe UserService
+    Criar a função post de login)
+
+Criar  funcionalidade de login (send) -login.component.ts
+    Carregar o UserService no constructor da clase - (private UserService: UserService)
+    Disparar a função de logarUsuário
